@@ -1,0 +1,17 @@
+{
+  "name": "frostvault-scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "flashloan-liquidate": "tsx flashloan-liquidate.ts"
+  },
+  "dependencies": {
+    "@mysten/deepbook-v3": "^1.5.0",
+    "@mysten/sui": "1.36.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.3"
+  }
+}

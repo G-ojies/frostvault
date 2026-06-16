@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --frost-bg: #070b14;
+  --frost-panel: #0e1626;
+  --frost-line: #1c2942;
+  --frost-ice: #7dd3fc;
+  --frost-glow: #38bdf8;
+}
+
+@theme {
+  --color-frost-bg: #070b14;
+  --color-frost-panel: #0e1626;
+  --color-frost-line: #1c2942;
+  --color-frost-ice: #7dd3fc;
+  --color-frost-glow: #38bdf8;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(56, 189, 248, 0.12), transparent 60%),
+    var(--frost-bg);
+  color: #e2ecf7;
+  min-height: 100vh;
+}
+
+.frost-card {
+  background: linear-gradient(180deg, rgba(22, 34, 56, 0.7), rgba(14, 22, 38, 0.7));
+  border: 1px solid var(--frost-line);
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+}
+
+.frost-input {
+  background: rgba(7, 11, 20, 0.6);
+  border: 1px solid var(--frost-line);
+  border-radius: 0.625rem;
+  padding: 0.625rem 0.875rem;
+  color: #e2ecf7;
+  width: 100%;
+  outline: none;
+}
+.frost-input:focus {
+  border-color: var(--frost-glow);
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+.frost-btn {
+  background: linear-gradient(180deg, #38bdf8, #0ea5e9);
+  color: #04121f;
+  font-weight: 600;
+  border-radius: 0.625rem;
+  padding: 0.625rem 1rem;
+  transition: filter 0.15s ease;
+}
+.frost-btn:hover {
+  filter: brightness(1.08);
+}
+.frost-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.frost-btn-ghost {
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid var(--frost-line);
+  color: #cfe6fb;
+  border-radius: 0.625rem;
+  padding: 0.5rem 0.875rem;
+}
+.frost-btn-ghost:hover {
+  border-color: var(--frost-glow);
+}

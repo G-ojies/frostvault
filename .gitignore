@@ -1,0 +1,21 @@
+# Move
+build/
+*.mv
+
+# Node / frontend
+node_modules/
+.next/
+out/
+dist/
+.env
+.env*.local
+
+# Sui local
+.sui/
+
+# Deploy artifacts that contain secrets
+*.keystore
+deploy.local.json
+
+# OS
+.DS_Store
