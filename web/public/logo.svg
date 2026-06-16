@@ -1,0 +1,60 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FrostVault">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1426"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="128" y1="120" x2="384" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dff3ff"/>
+      <stop offset="0.5" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="256" cy="240" r="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#22324f" stroke-width="3"/>
+
+  <!-- vault door: concentric rings -->
+  <circle cx="256" cy="256" r="150" fill="none" stroke="url(#ice)" stroke-width="14"/>
+  <circle cx="256" cy="256" r="116" fill="none" stroke="url(#ice)" stroke-width="6" opacity="0.7"/>
+  <circle cx="256" cy="256" r="34"  fill="none" stroke="url(#ice)" stroke-width="12"/>
+
+  <!-- bolts around the door -->
+  <g fill="#bde9ff">
+    <circle cx="256" cy="123" r="9"/>
+    <circle cx="256" cy="389" r="9"/>
+    <circle cx="123" cy="256" r="9"/>
+    <circle cx="389" cy="256" r="9"/>
+    <circle cx="350" cy="162" r="7"/>
+    <circle cx="162" cy="162" r="7"/>
+    <circle cx="350" cy="350" r="7"/>
+    <circle cx="162" cy="350" r="7"/>
+  </g>
+
+  <!-- handle spokes -->
+  <g stroke="url(#ice)" stroke-width="14" stroke-linecap="round">
+    <line x1="256" y1="180" x2="256" y2="332"/>
+    <line x1="180" y1="256" x2="332" y2="256"/>
+    <line x1="202" y1="202" x2="310" y2="310"/>
+    <line x1="310" y1="202" x2="202" y2="310"/>
+  </g>
+  <circle cx="256" cy="256" r="20" fill="#04101d"/>
+  <circle cx="256" cy="256" r="20" fill="none" stroke="url(#ice)" stroke-width="10"/>
+
+  <!-- frost crystals -->
+  <g stroke="#dff3ff" stroke-width="6" stroke-linecap="round" opacity="0.95">
+    <g transform="translate(126,126)">
+      <line x1="-15" y1="0" x2="15" y2="0"/><line x1="0" y1="-15" x2="0" y2="15"/>
+      <line x1="-10" y1="-10" x2="10" y2="10"/><line x1="-10" y1="10" x2="10" y2="-10"/>
+    </g>
+    <g transform="translate(386,126)">
+      <line x1="-12" y1="0" x2="12" y2="0"/><line x1="0" y1="-12" x2="0" y2="12"/>
+      <line x1="-8" y1="-8" x2="8" y2="8"/><line x1="-8" y1="8" x2="8" y2="-8"/>
+    </g>
+  </g>
+</svg>
