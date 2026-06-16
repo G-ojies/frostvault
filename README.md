@@ -10,6 +10,8 @@ Sui's native on-chain order book.
 
 > Submitted to the **CLAY Hackathon** (Code Like a Yeti) — Lofi × Sui.
 
+**🔗 Live demo:** https://frostvault-six.vercel.app · **Network:** Sui testnet · **Package:** `0xa84fbade273e466646d5d493e781f5a715672c6b9ecc22117d3ee0fefe552b25`
+
 ---
 
 ## Why this is Sui-native (not "a lending app that happens to be on a chain")

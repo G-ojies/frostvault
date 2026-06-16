@@ -45,7 +45,7 @@ Planned beats:
    signed transaction (capital-free liquidator). Show the explorer txn.
 6. (3:30) Recap the Sui-native wins; call to action.
 
-**Website (optional, recommended):** TBD — Vercel deploy of the frontend.
+**Website (optional, recommended):** https://frostvault-six.vercel.app ✅ (live on Vercel)
 
 ## Technical Deployment — LIVE on Sui testnet
 
