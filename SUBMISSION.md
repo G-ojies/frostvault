@@ -33,7 +33,7 @@ math) + GitBook — TBD.
 
 ## Development & Demonstration
 
-**Public GitHub Repository:** https://github.com/<user>/frostvault — TBD (push)
+**Public GitHub Repository:** https://github.com/G-ojies/frostvault ✅
 
 **Demo Video (3–5 min, YouTube):** TBD — script in `docs/demo-script.md`.
 Planned beats:
@@ -81,6 +81,6 @@ supplying USDY.
 
 ## Team
 
-**Team / Project Lead Name:** Great Ojietohamen (TBD confirm)
+**Team / Project Lead Name:** Great Ojietohamen (GitHub: G-ojies)
 **Email:** scarletmacaw1@live.com (TBD confirm)
 **Primary Contact Handle:** TBD (Telegram / Discord / X)
